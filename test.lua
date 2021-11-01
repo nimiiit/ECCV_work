@@ -33,7 +33,7 @@ opt = {
     cudnn = 1,                -- set to 0 to not use cudnn (untested)
     checkpoints_dir = './checkpoints', -- loads models from here
     results_dir='./results/real_text',          -- saves results here
-    which_epoch = '43500',            -- which epoch to test? set to 'latest' to use latest cached model
+    which_epoch = 'latest',            -- which epoch to test? set to 'latest' to use latest cached model
 }
 
 --cutorch.setDevice(opt.gpu)
